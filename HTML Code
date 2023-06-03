@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="nav">
+        <ul id="navbar">
+          <li><a href="#index">Index</a></li>
+          <li><a href="#food"> Food</a></li>
+          <li><a href="#about"> About</a></li>
+        </ul>
+      </div>
+      <div id="quotes"><h1>Top 5 favourite foods</h1></div>
+    </div>
+    <div id="list">
+      <ul id="listing">
+        <li><a href="#biryani">Biryani</a></li>
+        <li><a href="#cake">Cake</a></li>
+        <li><a href="#pizza">Pizza</a></li>
+        <li><a href="#choupsey">Choupsey</a></li>
+        <li><a href="#wings">Wings</a></li>
+      </ul>
+      <div class="menu_items">
+        <div id="biryani">
+          <img src="./images/biryani.jpg" width="450px" height="450px" />
+          <p>Biryani</p>
+        </div>
+        <div id="cake">
+          <img src="./images/cake.jpg" width="450px" height="450px" />
+          <p>Cake</p>
+        </div>
+
+        <div id="pizza">
+          <img src="./images/pizza.jpg" width="450px" height="450px" />
+          <p>Pizza</p>
+        </div>
+        <div id="choupsey">
+          <img src="./images/Chopsuey.jpg" width="450px" height="450px" />
+          <p>Chopsuey</p>
+        </div>
+        <div id="wings">
+          <img src="./images/wings.jpg" width="450px" height="450px" />
+          <p>Wings</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
