@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: darkcyan;
+}
+#container {
+  display: grid;
+}
+#nav {
+  background-color: brown;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  float: left;
+  padding: 20px 20px 20px;
+}
+#navbar li {
+  list-style-type: none;
+}
+#ul a {
+  cursor: pointer;
+
+  overflow: hidden;
+}
+
+#navbar a:hover {
+  background-color: black;
+}
+
+.menu_items {
+  text-align: center;
+}
+
+#listing a {
+  cursor: pointer;
+  text-decoration: none;
+}
